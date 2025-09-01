@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+}
+
+#top{
+    height: 45px;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    position: relative;
+}
+
+#one-time{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+#two-time{
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+
+#loc{
+    position: absolute;
+    left: 20px;
+}
+
+#time{
+    position: absolute;
+    left: 230px;
+}
+
+#no{
+    position: absolute;
+    right: 180px;
+}
+
+#icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 30px;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+}
+
+#klinik{
+    height: 70px;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+}
+
+#klinik h1{
+    font-size: 40px;
+    color: #0463FA;
+    position: absolute;
+    left: 140px;
+}
+
+#options{
+    height: 70px;
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 0px;
+}
+
+#appoint{
+    height: 70px;
+    width: 200px;
+    background-color: #0463FA;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#appoint>i{
+    position: absolute;
+    right: 40px;
+}
+
+li{
+    list-style: none;
+    font-size: 15px;
+}
+
+main{
+    height: 800px;
+    width: 100%;
+    background-color: #0463FA;
+    display: flex;
+}
+
+#text{
+    height: 800px;
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head{
+    height: 250px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-size: 30px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+#img{
+    height: 800px;
+    width: 50%;
+    background-image: url("https://t4.ftcdn.net/jpg/03/21/23/37/360_F_321233723_3nSdORPnL4nPOfGEocyCGVCI0RoXuRVo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#img>h1{
+    font-size: 100px;
+}
+
+#blocks3{
+    
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#blocks3>div{
+    height: 80px;
+    width: 33.33%;
+    line-height: 40px;
+    padding-left: 30px;
+    border-left: 1px solid white;
+    font-size: 18px;
+}
+
+#secone{
+    height: 750px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+#images{
+    height: 650px;
+    width: 50%;
+    position: relative;
+    padding: 15px;
+}
+
+#img1{    
+    height: 450px;
+    width: 450px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small_2x/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+    position: absolute;
+    right: 0;
+    padding-right: 25px;
+}
+
+#img2{
+    height: 280px;
+    width: 280px;
+    background-image: url("https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: 280px;
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+    border: 20px solid white;
+    border-radius: 10px;
+}
+
+#text-sec{
+    height: 600px;
+    width: 50%;
+    position: relative;
+    margin: 40px;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#th{
+    height: 120px;
+    width: 90%;
+    font-size: 40px;
+    margin-top: 12px;
+    word-spacing: 6px;
+}
+
+.twops{
+    height: 75px;
+    width: 95%;
+    font-size: 18px;
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+#text-sec>li{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#btn>button{
+    height: 60px;
+    width: 180px;
+    background-color: #0463FA;
+    font-size: 16px;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+}
+
+#sectwo{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servhead{
+    height: 130px;
+    width: 500px;
+    text-align: center;
+}
+
+.servhead>p{
+    margin-left: 150px;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.servhead>h1{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+#secthree{
+    height: 750px;
+    width: 90% ;
+    margin: 0 auto;
+}
+
+#sd1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sd2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#sd1>div{
+    height: 70%;
+    width: 310px;
+    background-color: rgb(208, 245, 245);
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+#sd1 h1{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#sd1 p{
+    font-size: 18px;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+
+
+#sd2>div{
+    height: 70%;
+    width: 310px;
+    background-color: rgb(208, 245, 245);
+    border-radius: 10px;
+    padding: 50px 50px;
+}
+
+#sd2 h1{
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#sd2 p{
+    font-size: 18px;
+    word-spacing: 5px;
+    margin-top: 20px;
+}
+
+.plus{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.symbol{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#secfour{
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#secfour>div{
+    height: 100%;
+    width: 45%;
+}
+
+#tex{
+    background-color: red;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page296/klinik/assets/img/carousel-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#imi{
+    background-color: red;
+    background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page296/klinik/assets/img/feature.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#secfive{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#secsix{
+    height: 550px;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+#secsix>div{
+    height: 80%;
+    width: 22%;
+    background-color: rgb(179, 250, 226);
+    border-radius: 10px;
+    position: relative;
+}
+
+#six1{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=640:*");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+#six2{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=640:*");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+#six3{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg?crop=0.66698xw:1xh;center,top&resize=640:*");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+#six4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5u8hua4lW5ItfkfL-BsoFEqdFi0f1S6j63w&s");
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+
+#secsix h4{
+    font-size: 23px;
+    position: absolute;
+    bottom: 45px;
+    left: 80px;
+}
+
+#secsix p{
+    font-size: 18px;
+    position: absolute;
+    bottom: 25px;
+    left: 95px;
+    color: #0463FA;
+}
+
+#secsev{
+    height: 600px;
+    width: 80%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#secsev>div{
+    height: 70%;
+    width: 40%;
+    
+    /* padding: 30px; */
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 140px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#st{
+    height: 120px;
+    width: 90%;
+    font-size: 40px;
+    margin-top: 12px;
+    word-spacing: 6px;
+}
+
+#seceight{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#secnine{
+    height: 370px;
+    width: 40%;
+    background-color: blue;
+    margin: 0 auto 80px;
+}
+
+#testph{
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testtext{
+    height: 55%;
+    width: 100%;
+    color: white;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#test{
+    font-size: 18px;
+    margin: 40px 20px;
+}
+
+#testtext>h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#testimg{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    background-image: url("https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    border-radius: 50%;
+    border: 10px solid blue;
+}
+
+#secsev>div{
+    margin: auto;
+    padding: 40px;
+}
+
+#call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+
+#call>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#call p{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#call h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#call>#one{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(223, 252, 242);
+    border-radius: 10px;
+}
+#call>#two{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(223, 252, 242);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(3, 3, 81);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>div{
+    height: 60%;
+    width: 30%;
+}
+
+#ftwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ftwo>div{
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
